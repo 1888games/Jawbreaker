@@ -226,7 +226,7 @@ MAIN: {
 	  
 	SetGameColours: {
 
-		lda #ORANGE
+		lda #BLACK
 		sta VIC.BACKGROUND_COLOR
 
 		lda #BLACK
@@ -235,10 +235,10 @@ MAIN: {
 		lda #BLUE
 		sta VIC.SPRITE_MULTICOLOR_1
 
-		lda #BLACK
+		lda #PURPLE
 		sta VIC.EXTENDED_BG_COLOR_1
 		
-	 	lda #CYAN
+	 	lda #YELLOW
 	 	sta VIC.EXTENDED_BG_COLOR_2
 
 	 	lda #WHITE

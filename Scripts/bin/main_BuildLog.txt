@@ -3,7 +3,7 @@ flex pass 1
 flex pass 2
 flex pass 3
 Output pass
-Writing prg file: /Users/nick/Dropbox/C64/Projects/Pirate Ship/Scripts/bin/main.prg
+Writing prg file: /Users/nick/Dropbox/C64/Projects/4K/Jawbreaker/Scripts/bin/main.prg
 
 Memory Map
 ----------
@@ -23,15 +23,15 @@ Default-segment:
   $2000-$1fff Unnamed
   $3000-$335e sid
   $7000-$7103 Game Map
-  $7104-$7253 Game Tiles
-  $7300-$7365 Game Colours
+  $7104-$719f Game Tiles
+  $7300-$7314 Game Colours
   $7500-$74ff Full Map
   $7700-$76ff Title Map
   $8000-$7fff Unnamed
   $8000-$8126 -Sound
   $8127-$8280 Main
-  $c400-$c3ff Sprites
-  $f000-$f32f Charset
+  $c400-$c3ff jawbreaker - sprites
+  $f000-$f0a7 Charset
 
-Writing Vice symbol file: /Users/nick/Dropbox/C64/Projects/Pirate Ship/Scripts/bin/main.vs
+Writing Vice symbol file: /Users/nick/Dropbox/C64/Projects/4K/Jawbreaker/Scripts/bin/main.vs
 Writing Symbol file: main.sym
